@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Drew Criminski | Welcome</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <link href="main.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/1faaa6c3b9.js">
+    </script>
+    <style>
+    </style>
+</head>
+
+<body id="over-rides">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html"><span class="highlight">Drew</span> Criminski</a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+
+                    <li class="active">
+                        <a href="#">Portfolio</a>
+                    </li>
+
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+
+                    <li>
+                        <a href="resume.pdf">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <h1><b>Code Portfolio</b></h1>
+        <div class="tableOfContents">
+                <ul>
+                    <li><a href="#corgiRambo">Corgi Rambo</a></li>
+                    <li><a href="#stepByStep">Step By Step</a></li>
+                    <li><a href="#mediaPlayer">Universal Media Player</a></li>
+                    <li><a href="#teapot">Cornell Box Teapot</a></li>
+                    <li><a href="#tangible">Tangible Poster Project</a></li>
+                    <li><a href="#checkers">Checkers</a></li>
+                    <li><a href="#rayTracer">3D Ray Tracer</a></li>
+                </ul>
+
+        </div>
+    </div>
+
+    <div id="corgiRambo" class="container-fluid boxed">
+        <h1><b>Corgi Rambo</b>
+        </h1>
+        <br>
+        <img class="img-responsive" src="apps/corgiRambo/corgiRambo.png"> <video controls=""><source src="apps/corgiRambo/VideoGame.mp4">Video not working.</video>
+
+        <p><b>Technologies:</b> C++, <a href="https://www.libsdl.org/">SDL</a></p>
+
+
+        <p><b>Description:</b> A 2D shooter game. You are a corgi fighting tanks to survive. This program is written in C++ and uses Simple DirectMedia Layer (SDL). The program uses data driven programming contained in game.xml. Most settings can be changed in this file.</p>
+
+
+        <p><b>Controls:</b><br>
+        w: jump<br>
+        a d: left, right<br>
+        shift: sprint<br>
+        s: crouch<br>
+        space: shoot<br>
+        e: switch gun<br>
+        F1: toggle hud<br>
+        r: restart<br>
+        q: quit<br></p>
+
+
+        <p><b>Github:</b> <a href="https://github.com/acrimin/CorgiRambo">Corgi Rambo</a></p>
+        <p><b>Download:</b> <a href="apps/corgiRambo/asg6.zip">Corgi Rambo</a></p>
+
+
+        <p><b>Instructions:</b>
+        </p>
+        <code>unzip asg6.zip<br>
+        cd asg6<br>
+        make<br>
+        ./run</code>
+
+        <br><br><p style="text-align: center;"><a href="#">Return to top</a></p>
+    </div>
+
+
+    <div id="stepByStep" class="container-fluid boxed">
+        <h1><b>Step By Step</b>
+        </h1>
+        <br>
+        <img width=300px class="img-responsive" src="apps/stepByStep/android.png">
+        <img class="img-responsive" src="apps/stepByStep/authoring.PNG">
+
+        <p><b>Technologies:</b> Android Studio, Java, MySQL, PHP, Javascript, HTML</p>
+
+
+        <p><b>Description:</b> Clemson Life is a program for students with intellectual disabilities. The app Step By Step was meant to assist in these students day to day lives. It was found that these students could be very close to being independent but would sometimes be confronted with problems they wouldn't understand how to solve on the own. Step By Step serves to solve this problem. This application connects to an external database where the faculty can add different tasks for different students. For the students the app is accessed and based on location gives many possible tasks. From each task the student can then access step by step instructions.
+        </p>
+
+
+        <p><b>Download:</b> <a href="apps/stepByStep/step_by_step.zip">Step By Step</a></p>
+
+
+        <br><br><p style="text-align: center;"><a href="#">Return to top</a></p>
+    </div>
+
+
+    <div id="mediaPlayer" class="container-fluid boxed">
+        <h1><b>Universal Media Player</b>
+        </h1>
+        <br>
+        <img class="img-responsive" src="apps/mediaPlayer/login.png"> <img class="img-responsive" src="apps/mediaPlayer/player.png">
+
+        <p><b>Technologies:</b> Java, Java Swing</p>
+
+
+        <p><b>Description:</b> 
+        </p>
+
+
+        <p><b>Download:</b> <a href="apps/mediaPlayer/mediaPlayer.zip">Media Player</a></p>
+
+
+        <p><b>Instructions:</b> A media player that gets information from a universal media server. This media player has three different users with different levels of permisions. The idea being to sensor music from different audiences. The admin (password: 9999) has control over the accounts of user1 (password: 1111) and user2 (password: 2222). This media player is written in Java using Swing for the GUI.
+        </p>
+        <code>unzip mediaPlayer.zip<br>
+        cd mediaPlayer</code><br>
+        <br>
+
+
+        <p><b>To Start Universal Media Server</b>
+        </p>
+        <code>cd ums<br>
+        java -Dums.profile.path=. -cp ums.jar net.pms.PMS</code><br>
+        <br>
+
+
+        <p><b>To Start Media Player</b>
+        </p>
+        <code>chmod +x gradlew<br>
+        ./gradlew build<br>
+        ./gradlew run</code>
+
+        <br><br><p style="text-align: center;"><a href="#">Return to top</a></p>
+    </div>
+
+
+    <div id="teapot" class="container-fluid boxed">
+        <h1><b>Cornell Box Teapot</b>
+        </h1>
+        <br>
+        <img class="img-responsive" src="apps/teapot/teapot.png">
+
+        <p><b>Technologies:</b> C, <a href="https://www.opengl.org/">OpenGL</a></p>
+
+
+        <p><b>Description:</b> A rendering of a teapot in a Cornell Box. This rendering uses global illumination, texture mapping, and normal mapping to render a realistic Utah Teapot inside of a Cornell Box.</p>
+
+
+        <p><b>Download:</b> <a href="apps/teapot/asg3.zip">Cornell Box Teapot</a></p>
+
+
+        <p><b>Instructions:</b>
+        </p>
+        <code>unzip asg3.zip<br>
+        cd asg6<br>
+        make<br>
+        ./teapot</code>
+
+        <br><br><p style="text-align: center;"><a href="#">Return to top</a></p>
+    </div>
+
+
+    <div id="tangible" class="container-fluid boxed">
+        <h1><b>Tangible Poster Project</b>
+        </h1>
+        <br>
+        <img class="img-responsive" src="apps/tangible/vertical.png">
+        <img class="img-responsive" src="apps/tangible/horizontal.png">
+
+        <p><b>Technologies:</b> Python, <a href="https://kivy.org/#home">Kivy</a>, <a href="http://opensoundcontrol.org/introduction-osc">OSC</a></p>
+
+
+        <p><b>Description:</b> This program was designed to help show off a research project done on campus about a new style of 3D brain modeling. Our goal was to create a Tangible Interface to interact with this information as opposed to a poster which would normally be the model of showing off the information. For our program used 2 Microsoft Surface Studios to allow full touch navigation. With this we were able to place capacitive touch knobs onto the Surface and interact with the model. This project was completed using Python with Kivy for the Graphical User Interface and Open Sound Control (OSC) for the networked communication.
+        </p>
+
+
+        <p><b>Github:</b> <a href="https://github.com/acrimin/tangibles">Tangible Poster Project</a></p>
+        <p><b>Download:</b> <a href="apps/tangible/tangible.zip">Tangible Poster Project</a></p>
+
+
+        <p><b>Instructions:</b>
+        </p>
+        <code>unzip tangible.zip<br>cd P3<br>python title.py #for both vertical and horizontal</code>
+
+        <br><br><p style="text-align: center;"><a href="#">Return to top</a></p>
+    </div>
+
+
+    <div id="checkers" class="container-fluid boxed">
+        <h1><b>Checkers</b>
+        </h1>
+        <br>
+        <img class="img-responsive" src="apps/checkers/message.png"> <img class="img-responsive" src="apps/checkers/checkers.png">
+
+        <p><b>Technologies:</b> Java, Java Swing</p>
+
+
+        <p><b>Description:</b> A checkers application written in Java using Swing for the graphics. This application can play local one vs one checkers or networked checkers. This application contains a chat function to communicate over the network while in game.</p>
+
+
+        <p><b>Download:</b> <a href="apps/checkers/checkers.zip">Checkers</a></p>
+
+
+        <p><b>Instructions:</b>
+        </p>
+        <code>unzip checkers.zip<br>
+        cd checkers<br>
+        javac javaChipGame/*java<br>
+        java javaChipGame.Checkers</code>
+
+        <br><br><p style="text-align: center;"><a href="#">Return to top</a></p>
+    </div>
+
+
+    <div id="rayTracer" class="container-fluid boxed">
+        <h1><b>3D Ray Tracer</b>
+        </h1>
+        <br>
+        <img class="img-responsive" src="apps/rayTracer/myscene.png">
+
+        <p><b>Technologies:</b> C++</p>
+
+
+        <p><b>Description:</b> A 3D ray tracer written in C++. This program takes in a file containing a list of objects and lights. This program uses this information to trace rays to generate a 3D image. This raytracer supports: shadows, reflection, colored lighting.</p>
+
+
+        <p><b>Download:</b> <a href="apps/rayTracer/rayTracer.zip">Ray Tracer</a></p>
+
+
+        <p><b>Instructions:</b>
+        </p>
+        <code>unzip rayTracer.zip<br>
+        cd rayTracer<br>
+        make<br>
+        ./ray myscene.txt myscene.ppm</code>
+
+        <br><br><p style="text-align: center;"><a href="#">Return to top</a></p>
+    </div>
+    <!--
+    footer
+    -->
+
+
+    <div id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <h1><span class="highlight">Drew</span> Criminski</h1>
+
+
+                    <p style="padding-top: 10px; font-size: 16px"><a href="index.html">Home</a> · <a href="portfolio.html">Portfolio</a> · <a href="contact.html">Contact</a> · <a href="resume.pdf">Resume</a></p>
+
+
+                    <p style="color: gray; padding-top: 10px">Drew Criminski © 2017</p>
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-8" id="footer-center">
+                    <div>
+                        <br>
+                        <i class="glyphicon glyphicon-earphone"></i>
+
+                        <p><a href="tel:15712960793">571-296-0793
+                        <p></p></a>
+                        </p>
+                    </div>
+
+
+                    <div>
+                        <i class="glyphicon glyphicon-envelope"></i>
+
+                        <p><a href="mailto:acrimin@g.clemson.edu">acrimin@g.clemson.edu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
